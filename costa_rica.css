@@ -1,0 +1,38 @@
+.row.content {height: 3000px}
+h2 {
+    background-color: #f6b655  ;
+    padding: 10px 10px;
+}
+h3 {
+    background-color:#ed4985;
+    color: white;
+    padding: 10px;
+}
+h4 {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #aaf2ed ;
+
+}
+li a {
+    color: white;
+    font-size:larger
+}
+.sidenav {
+    background-color:#8bed4e ;
+    color:#d7dbdd;
+    height: 100%;
+}
+
+footer {
+    background-color: darkslategrey;
+    color: white;
+    padding: 15px;
+}
+@media screen and (max-width:767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height:auto}
+}
